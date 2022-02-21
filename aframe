@@ -7,14 +7,23 @@
   	<a-scene>
   		<!-- Asset Management System -->
   		<a-assets>
-  			<img id="skyTexture" src="img/sky.jpg">
+  		 <img src="../cat.png" id="cat">
   	 	</a-assets>
 
-  	 	<a-sky src="skyTexture" material="" geometry="" scale=""></a-sky>
-		<a-plane color="#001" rotation="-90 0 0" width="500" height="500" material="" geometry=""></a-plane>
+  	 	<a-sky color="#FDF4FF" material="" geometry="" scale=""></a-sky>
+		<a-plane color="#C7B5DD" rotation="-90 0 0" width="500" height="500" material="" geometry=""></a-plane>
+		 <a-box position="-2 0.5 -4" rotation="0 45 0" color="#FF8500"></a-box>
+		<a-cylinder position="0 0.75 -4" radius="0.5" height="1" color="#FAA73D"></a-cylinder>
+		<a-sphere color="#FFD093" position="2 1 -4" translate="0 1.75 0" radius="1"></a-sphere>
 
-
-		<a-entity text="value: Welcome to my A-Frame environment!; color: #white" position="-0.9 0.2 -2" scale="1.5 1.5 1.5">
-      </a-entity>
+		<a-entity text="value: Welcome to my A-Frame environment!; color: #745995" position="0 3 -4" scale="4 4 4"
+		animation="property: object3D.position.y;
+				   to:3.3;
+				   dir: alternate;
+				   dur:2000;
+				   loop: true" text></a-entity>
     </a-scene>
+</body>
+</html>
+    
     
