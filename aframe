@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+  	<a-scene>
+  		<!-- Asset Management System -->
+  		<a-assets>
+  			<img id="skyTexture" src="img/sky.jpg">
+  	 	</a-assets>
+
+  	 	<a-sky src="skyTexture" material="" geometry="" scale=""></a-sky>
+		<a-plane color="#001" rotation="-90 0 0" width="500" height="500" material="" geometry=""></a-plane>
+
+
+		<a-entity text="value: Welcome to my A-Frame environment!; color: #white" position="-0.9 0.2 -2" scale="1.5 1.5 1.5">
+      </a-entity>
+    </a-scene>
+    
